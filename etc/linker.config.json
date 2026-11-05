@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_adservices_dev-x86_64-v2.so",
+		    "libdummy_adservices_dev.so",
+		    "libdummy_headers_adservices-x86_64-v2.so",
+		    "libdummy_headers_adservices.so"
+	],
+	"visible": true
+}

@@ -25,6 +25,7 @@ prebuilt_apex {
 java_import {
     name: "framework-adservices.stubs.module_lib",
     jars: ["framework-adservices-stubs.jar"],
+    prefer: true,
     sdk_version: "module_current",
     visibility: ["//visibility:public"],
 }
@@ -32,6 +33,7 @@ java_import {
 java_import {
     name: "service-adservices.stubs.system_server",
     jars: ["service-adservices-stubs.jar"],
+    prefer: true,
     sdk_version: "system_server_current",
     visibility: ["//visibility:public"],
 }
@@ -39,6 +41,23 @@ java_import {
 java_import {
     name: "framework-sdksandbox.stubs.module_lib",
     jars: ["framework-sdksandbox-stubs.jar"],
+    prefer: true,
+    sdk_version: "module_current",
+    visibility: ["//visibility:public"],
+}
+
+java_import {
+    name: "framework-sdksandbox.stubs.system",
+    jars: ["framework-sdksandbox-stubs.jar"],
+    prefer: true,
+    sdk_version: "system_current",
+    visibility: ["//visibility:public"],
+}
+
+java_import {
+    name: "framework-sdksandbox",
+    jars: ["framework-sdksandbox-stubs.jar"],
+    prefer: true,
     sdk_version: "module_current",
     visibility: ["//visibility:public"],
 }
@@ -46,6 +65,15 @@ java_import {
 java_import {
     name: "service-sdksandbox.stubs.system_server",
     jars: ["service-sdksandbox-stubs.jar"],
+    prefer: true,
+    sdk_version: "system_server_current",
+    visibility: ["//visibility:public"],
+}
+
+java_import {
+    name: "service-sdksandbox",
+    jars: ["service-sdksandbox-stubs.jar"],
+    prefer: true,
     sdk_version: "system_server_current",
     visibility: ["//visibility:public"],
 }
